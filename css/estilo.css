@@ -17,3 +17,15 @@ body {
     height: 1px;
     background-color: white;
 }
+
+h2.destacado {
+    color: blue;
+    background-color: red;
+}
+p.oculto {
+    display: none;
+}
+h2.activo {
+    color: blue;
+    background-color: red;
+}
