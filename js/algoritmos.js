@@ -1,4 +1,12 @@
+const imagen = document.querySelector("img");
 
+function mostrarVisible(){
+    imagen.classList.remove('imagen-oculta');
+    imagen.classList.add('imagen-visible');
+}
+
+    
+    
     document.addEventListener("DOMContentLoaded", function () {
         const headers = document.querySelectorAll("h2");
 
@@ -16,3 +24,4 @@
             });
         });
     });
+   

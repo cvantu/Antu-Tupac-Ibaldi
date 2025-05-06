@@ -29,3 +29,16 @@ h2.activo {
     color: blue;
     background-color: red;
 }
+
+#imagen {
+    width: 15em;
+    height: 20em;
+}
+
+.imagen-oculta {
+    display: none;
+}
+
+.imagen-visible {
+    display: block;
+}
