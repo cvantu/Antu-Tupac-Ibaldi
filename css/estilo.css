@@ -1,0 +1,19 @@
+body {
+    background: rgb(17, 17, 194);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#titulo{
+    text-align: center;
+}
+
+#uno-hr {
+    height: 3px;
+    background-color: white;
+}
+
+#dos-hr {
+    height: 1px;
+    background-color: white;
+}
