@@ -30,15 +30,21 @@ h2.activo {
     background-color: red;
 }
 
-#imagen {
-    width: 15em;
-    height: 20em;
-}
-
 .imagen-oculta {
     display: none;
 }
-
 .imagen-visible {
+    display: block;
+}
+
+img {
+    width: 10em;
+    height: 10em;
+}
+
+.imagen-oculta2 {
+    display: none;
+}
+.imagen-visible2 {
     display: block;
 }

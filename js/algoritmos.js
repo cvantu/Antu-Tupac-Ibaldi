@@ -1,5 +1,6 @@
 const headers = document.querySelectorAll("h2");
 const imagen = document.getElementById("imagen");
+const imagen2 = document.getElementById("imagen2");
 const primerH2 = document.getElementById("primerH2");
 let numero= 1
 
@@ -13,6 +14,19 @@ function mostrarVisible(){
     if (numero%2!=0){
         imagen.classList.remove('imagen-visible')
         imagen.classList.add('imagen-oculta')
+
+    }
+}
+function mostrarVisible2(){
+    numero= ++numero
+    if (numero%2==0)  {
+        imagen2.classList.remove('imagen-oculta2')
+        imagen2.classList.add('imagen-visible2')
+
+    } 
+    if (numero%2!=0){
+        imagen2.classList.remove('imagen-visible2')
+        imagen2.classList.add('imagen-oculta2')
 
     }
 }
